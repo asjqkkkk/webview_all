@@ -76,4 +76,4 @@ On `Web` the Webview widget will use the `webview_flutter_web` plugin.
 
 On `Windows` the Webview widget will use the `webview_windows` plugin.   
 
-On `Linux` the Webview widget will use the `webview_cef` plugin.   
+On `Linux` the Webview widget will use the `desktop_webview_linux` plugin (the content is rendered in a separate native window).   

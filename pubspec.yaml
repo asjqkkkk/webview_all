@@ -24,7 +24,7 @@ dependencies:
   webview_flutter_web: ^0.2.3+4
   webview_flutter_platform_interface: ^2.14.0
   webview_windows: ^0.4.0
-  webview_all_cef: ^0.5.1
+  desktop_webview_linux: ^0.1.3
   abutil: ^0.1.2
 
 dev_dependencies:
