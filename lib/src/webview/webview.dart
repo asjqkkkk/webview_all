@@ -8,7 +8,6 @@ import 'package:webview_flutter/webview_flutter.dart';
 import 'package:abutil/abutil.dart';
 
 import 'webview_flutter.dart';
-import 'webview_linux.dart';
 import 'webview_windows.dart';
 import 'webview_web.dart' if (dart.library.io) "webview_web_vain.dart";
 
@@ -31,8 +30,6 @@ class Webview extends StatelessWidget {
           url: url,
           backgroundColor: const Color(0x00000000),
           javaScriptMode: JavaScriptMode.unrestricted);
-    } else if (isLinux()) {
-      return WebviewLinux(url: url);
     } else {
       return const SizedBox.expand();
     }
